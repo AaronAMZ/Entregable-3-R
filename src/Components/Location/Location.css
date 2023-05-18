@@ -1,0 +1,28 @@
+.location {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   font-size: 25px;
+   -webkit-text-stroke: turquoise 0.5px;
+}
+.ul_section {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 20px;
+    background-color: red;
+    margin: 15px 60px;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+.ul_section b {
+    font-size: 28px;
+    font-weight: 900;
+    color: aqua;
+}
+.ul_section li {
+    color: beige;
+    font-weight: bold;
+}

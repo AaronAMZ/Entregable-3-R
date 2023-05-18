@@ -1,0 +1,44 @@
+.buttons_section {
+    text-align: center;
+}
+.buttons_section button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #084851;
+    font-size: 15px;
+    font-weight: bold;
+}
+.buttons_mid {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+}
+.first_button {
+    height: 30px;
+    border-radius: 5px !important;
+    font-weight: bold;
+}
+.left {
+    margin-right: 10px;
+}
+.right {
+    margin-left: 10px;
+}
+.value {
+    margin: 10px 0px;
+    height: 25px;
+    width: 50px;
+}
+select:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.countries_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(256px, 1fr));
+    gap: 3rem;
+}
+.container {
+    padding-bottom: 30px;
+}

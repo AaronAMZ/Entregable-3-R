@@ -1,0 +1,50 @@
+.resident_list {
+    padding: 1rem;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(42, 41, 41);
+    border-radius: 10px;
+    max-width: 250px;
+    height: 415px;
+    overflow-y: hidden scroll ;
+    overflow-y: auto;
+}
+.resident_list:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px springgreen;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+   
+}
+.image img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+}
+.contain_card {
+    padding-left: 0;
+    margin: 10px 0px;
+
+}
+.contain_card li {
+    font-weight: bold;
+    font-size: 18px;
+}
+.contain_card b {
+    color: saddlebrown;
+    font-size: 20px;
+}
+h3 {
+    margin-bottom: 5px;
+    text-align: center;
+    color: crimson;
+}
